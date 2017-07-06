@@ -1,0 +1,15 @@
+extends layout
+
+block content
+
+    h1 Cadastro de Livro
+
+    form#livro.form(method="post" action="http://localhost:3000/livros")
+        div.input-group
+            label(for="nome") Nome:
+            input(type="text" name="nome")
+
+        br
+        input(type="submit" value="Cadastrar")
+
+    

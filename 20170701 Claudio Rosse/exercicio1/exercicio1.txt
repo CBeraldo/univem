@@ -1,0 +1,22 @@
+Exercícios
+
+1 - Quais os elementos básicos da comunicação?
+Sincronismo, transmissão de dados, confiabilidade etc.
+
+2 - Qual a diferença entre o modelo baseado em thread e o modelo de eventos não bloqueantes?
+Modelos de eventos não bloqueantes utilizam entradas para executar os eventos sem travar o processo ao 
+    contrario do modelo baseado em threads que trava o processo até que haja uma requisição ou seja 
+    necessário realizar algum processamento.
+
+3 - Qual a proposta do Node.js?
+Resolver o problema de I/O.
+
+4 - De que é composto o Node.js?
+V8, fs, cluster, crypto, url, stream, net etc.
+
+5 - Explique o Event-loop e o Single-thread.
+Event-loop é um loop infinito que gerencia os eventos da aplicação.
+Single-thread é a utilização de uma única thread para executar um processo.
+
+6 - Quais players utilizam o Node.js?
+Netflix, PayPal, New York Times entre outros.

@@ -1,0 +1,13 @@
+extends layout
+
+block content
+
+    h1 Controle de Livros
+
+    div#livros.div
+
+    div
+        a(href="/cadastrar-livro") Adicionar 
+        br
+        br
+        button(onclick="getLivros()") Atualizar
